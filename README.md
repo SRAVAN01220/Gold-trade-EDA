@@ -106,9 +106,8 @@ This repository contains the Exploratory Data Analysis (EDA) of gold trade data 
 ## 👤 Author
 
 *BITLA SRAVAN*  
-📍 Berlin, Germany  
 📧 Sravannetha000111@gmail.com  
-🎓 Master's in Data Science – University of Europe for Applied Sciences (Potsdam)
+
 
 ---
 
