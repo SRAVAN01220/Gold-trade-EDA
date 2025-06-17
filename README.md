@@ -68,7 +68,29 @@ This repository contains the Exploratory Data Analysis (EDA) of gold trade data 
 📊 ![Total Trade Value by Year](total_trade_value_by_year.png)
 
 ---
+## 📈 Visual Analysis
 
+### 🧪 Boxplot of Primary Trade Value
+
+This chart shows outliers in the trade data. Large values are valid gold exports and are retained.
+
+![Boxplot](boxplot_primaryvalue.png)
+
+---
+
+### 📉 Histogram of Primary Trade Value
+
+Trade values are right-skewed, with many smaller transactions and a few large exports.
+
+![Histogram](histogram_primaryvalue.png)
+
+---
+
+### 🌍 Top 5 Partner Countries by Trade Value
+
+Canada dominates gold trade, followed by India and Italy.
+
+![Top Partners](barplot_top_partners.png)
 ## ⚠ Data Quality Notes
 
 - Missing values only in altqtyunitabbr (~60% missing)
