@@ -9,9 +9,8 @@ This repository contains the Exploratory Data Analysis (EDA) of gold trade data 
 | File Name                       | Description                                             |
 |--------------------------------|---------------------------------------------------------|
 | cleaned_trade_data.csv       | Cleaned dataset used for analysis                      |
-| EDA_Gold_Trade_Report.docx   | Word document summarizing the full EDA                |
-| total_trade_value_by_year.png| Visualization of yearly trade trends                   |
-| README.md                    | This project overview file                             |
+| Exploratory_Data_Analysis(Gold_Trade).docx   | Word document summarizing the full EDA                |
+| EDA PART README.md                    | This project overview file                             |
 
 ---
 
