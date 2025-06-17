@@ -7,7 +7,7 @@ This project presents an Exploratory Data Analysis (EDA) of cleaned gold trade d
 ## 📁 Files Included
 
  File Name                    
-1,EDA_Gold_Trade_Report.docx 
+1,Exploratory_Data_Analysis (Gold_Trade).docx
 2.
 
  Description:
