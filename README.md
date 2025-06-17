@@ -1,50 +1,114 @@
-# 🟡 Gold Trade – Exploratory Data Analysis (EDA)
+# 📊 Gold Trade Analysis: Egypt & Burkina Faso (2018–2024)
 
-This project presents an Exploratory Data Analysis (EDA) of cleaned gold trade data between Egypt, Burkina Faso, and various global partners from 2018 to 2024. The objective is to uncover trade patterns, high-value commodities, outliers, and trends over time.
+This repository contains the Exploratory Data Analysis (EDA) of gold trade data involving Egypt and Burkina Faso from 2018 to 2024. The project aims to uncover trade patterns, key product flows, partner countries, and value trends over time.
 
+---
 
+## 📁 Files in This Repository
 
-## 📁 Files Included
+| File Name                       | Description                                             |
+|--------------------------------|---------------------------------------------------------|
+| cleaned_trade_data.csv       | Cleaned dataset used for analysis                      |
+| EDA_Gold_Trade_Report.docx   | Word document summarizing the full EDA                |
+| total_trade_value_by_year.png| Visualization of yearly trade trends                   |
+| README.md                    | This project overview file                             |
 
- File Name                    
-1,Exploratory_Data_Analysis (Gold_Trade).docx
-2.cleaned_trade_dataset.csv
+---
 
- Description:
+## 🔍 Exploratory Data Analysis Summary
 
-1.Word report summarizing the full EDA finding
-2.Cleaned dataset used in analysis 
-       
-   
+### ✅ Dataset Overview
 
+- *Rows*: 524
+- *Columns*: 47
+- *Date Range*: 2018–2024
+- *Countries*: Egypt (314 entries), Burkina Faso (210 entries)
+- *Trade Flow*: Export (343), Import (181)
 
-## 📊 Key Analysis Highlights
+---
 
-- *Trade Volume:* 524 trade entries across 7 years
-- *Reporting Countries:* Egypt and Burkina Faso
-- *Top Partner Country:* Canada (255 trades)
-- *Primary Commodity:* Gold (in various forms)
-- *Peak Trade Years:* 2019 and 2021
-- *Outliers:* Detected but retained (high-value trades)
-- *Correlation:* Strong between primary value, FOB, quantity, and net weight
+### 📦 Product Focus
 
+- *Gold (unwrought, semi-manufactured, powder)* is the main commodity.
+- Top product:
+  - Gold (including gold plated with platinum) unwrought or in semi-manufactured forms: 258 entries
 
+---
 
-## 📈 Visualizations
+### 🌍 Partner Countries (Top 5)
 
-The analysis includes:
-- Trade flow distribution
-- Top product & partner countries
-- Year-over-year trade value trends
-- Correlation matrix
-- Outlier detection using boxplot & IQR
+1. Canada – 255 entries  
+2. India – 88  
+3. Italy – 70  
+4. Germany – 25  
+5. France – 24  
 
+---
 
+### 💰 Trade Value (Primary)
 
-## 🧪 Tools Used
+- *Mean*: $19.9 million  
+- *Max*: $110.7 million  
+- *Median*: $3.59 million  
+- *Std Dev*: $26.8 million  
 
-- Python (Pandas, Matplotlib, Seaborn)
-- Jupyter Notebook
-- Microsoft Word
-- Power BI (for future dashboard)
+---
+
+### 📈 Yearly Trade Value Trend
+
+| Year | Total Trade Value (USD)    |
+|------|-----------------------------|
+| 2018 | $973 million                |
+| 2019 | $2.46 billion               |
+| 2020 | $1.88 billion               |
+| 2021 | $2.25 billion               |
+| 2022 | $1.80 billion               |
+| 2023 | $939 million                |
+| 2024 | $171 million                |
+
+📊 ![Total Trade Value by Year](total_trade_value_by_year.png)
+
+---
+
+## ⚠ Data Quality Notes
+
+- Missing values only in altqtyunitabbr (~60% missing)
+- No duplicate entries detected
+- Categorical values are clean and consistent
+- Outliers detected in trade values but reflect real-world scenarios
+
+---
+
+## 🔍 Correlation Analysis
+
+- *Highly correlated*: primaryvalue, fobvalue, netwgt, and qty (0.97–0.99)
+- *Negatively correlated*: cifvalue with others (-0.28 to -0.34)
+
+---
+
+## 📌 Insights
+
+- Egypt contributes over *$6.52 billion* in total trade value
+- Burkina Faso contributes around *$3.96 billion*
+- Canada is the most frequent trade partner
+- Gold (in various forms) dominates the product category
+
+---
+
+## 🔮 Next Steps
+
+- Predictive modeling of trade values
+- Interactive dashboards in Power BI
+- Further analysis on value types (CIF, FOB, Net Weight)
+
+---
+
+## 👤 Author
+
+*BITLA SRAVAN*  
+📍 Berlin, Germany  
+📧 Sravannetha000111@gmail.com  
+🎓 Master's in Data Science – University of Europe for Applied Sciences (Potsdam)
+
+---
 
