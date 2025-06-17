@@ -2,13 +2,13 @@
 
 This project presents an Exploratory Data Analysis (EDA) of cleaned gold trade data between Egypt, Burkina Faso, and various global partners from 2018 to 2024. The objective is to uncover trade patterns, high-value commodities, outliers, and trends over time.
 
----
+
 
 ## 📁 Files Included
 
  File Name                    
 1,Exploratory_Data_Analysis (Gold_Trade).docx
-2.
+2.cleaned_trade_dataset.csv
 
  Description:
 
